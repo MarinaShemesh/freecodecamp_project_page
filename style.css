@@ -1,5 +1,5 @@
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -13,6 +13,10 @@ h1{
   text-align: center;
   padding-top: 20px;
   font-size: 2.5em;
+}
+
+h2, p{
+  color:white;
 }
 
 
@@ -46,37 +50,55 @@ h1{
   color: white;
 }
 
-#title{
-  height:50px;
-  background-color: purple;
-}
-
-
-#products{
-  height:150px;
-  background-color: purple;
-}
-#products_2{
-  height:200px;
-  background-color: red;
-}
-
-#information{
-  height:200px;
-  background-color: blue;
-}
-#contact{
- height:200px;
- background-color: purple;
-}
-
 .container{
   display: flex;
   flex-direction: column;
   align-content: right;
 }
 
+
+#title{
+  height:50px;
+  background-color: #ffa07a;
+}
+
+#products{
+  height:150px;
+  background-color: #ffa07a;
+  
+}
+#products_2{
+  height:400px;
+  background-color: #65000b;
+  text-align: center;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: 33.33% 33.33%  33.33%;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+
+}
+
+
+#information{
+  height:400px;
+  background-color: #ffbfcd;
+  text-align: center;
+}
+
+
+#contact{
+ height:200px;
+ background-color: #ffa07a;
+ text-align: center;
+}
+
+
 footer{
-  height:45px;
-  background-color: pink;
+  height:70px;
+  background-color: #ffbfcd;
+  text-align: center;
 }
