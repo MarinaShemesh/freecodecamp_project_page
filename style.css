@@ -40,6 +40,13 @@ h2, p{
   font-size: 17px;
 }
 
+@media screen and (max-width: 600px) {
+    #nav-bar a {
+        float: none;
+        width: 100%;
+    }
+}
+
 #nav-bar a:hover {
   background-color: #9f64d8;
   color: white;
@@ -77,11 +84,7 @@ h2, p{
   display: grid;
   grid-template-columns: 33.33% 33.33%  33.33%;
   justify-content: space-between;
-  justify-items: center;
-  width: 100%;
-
-}
-
+  }
 
 #information{
   height:400px;
@@ -96,6 +99,31 @@ h2, p{
  text-align: center;
 }
 
+input[type=email]{
+   color: black;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 0px;
+
+}
+
+input[type=submit] {
+    background-color: #65000b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+}
+
+input[type=submit]:hover {
+    background-color: brown;
+}
+
+input:focus {
+outline-color : brown !important;
+}
 
 footer{
   height:70px;
